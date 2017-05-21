@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arogita Box</string>
+    <string name="action_settings">Settings</string>
+    <string name="temperature">Tempreature</string>
+    <string name="ecg">ECG</string>
+    <string name="nibp_patient_mode">Blood Pressure, Patient Mode</string>
+    <string name="spo2">SPO2</string>
+    <string name="cent">Centigrade</string>
+    <string name="fahr">Fahrenheit</string>
+    <string name="child">Child</string>
+    <string name="adult">Adult</string>
+    <string name="neonate">Neonate</string>
+    <string name="ecg_filter_mode">ECG, Filter Mode</string>
+    <string name="title_activity_ece_wave">EceWaveActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_view_search"></string>
+    <string name="title_activity_patient_search">Patient Search</string>
+    <string name="title_activity_report_search"></string>
+    <string name="title_activity_add_customer"></string>
+    <string name="title_activity_patient">Patient Profile</string>
+    <string name="title_activity_notes">Doctor\'s Notes</string>
+
+</resources>

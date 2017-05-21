@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- opens a subscreen of settings -->
+    <ListPreference
+		  android:title="Tempreature Preference"
+		  android:summary="Select the option of the list"
+		  android:key="tempPref"
+		  android:entries="@array/tempreatureDisplay"
+		  android:entryValues="@array/tempreatureReturnValue" />
+    <ListPreference
+		  android:title="BP Patient Mode Preference"
+		  android:summary="Select the option of the list"
+		  android:key="bpPatientModePref"
+		  android:entries="@array/bpPatientModeDisplay"
+		  android:entryValues="@array/bpPatientModeReturnValue" />
+    <ListPreference
+		  android:title="ECG Filter Mode Preference"
+		  android:summary="Select the option of the list"
+		  android:key="ecgFilterModePref"
+		  android:entries="@array/ecgFilterModeDisplay"
+		  android:entryValues="@array/ecgFilterModeReturnValue" />
+    <ListPreference
+		  android:title="ECG Wave Gain Preference"
+		  android:summary="Select the option of the list"
+		  android:key="ecgWaveGainPref"
+		  android:entries="@array/ecgWaveGainDisplay"
+		  android:entryValues="@array/ecgWaveGainReturnValue" />
+    <ListPreference
+		  android:title="ECG Lead3/Lead5 Switch Preference"
+		  android:summary="Select the option of the list"
+		  android:key="ecgLead3Lead5SwitchPref"
+		  android:entries="@array/ecgLead3Lead5SwitchDisplay"
+		  android:entryValues="@array/ecgLead3Lead5SwitchReturnValue" />
+    <ListPreference
+		  android:title="RESP Wave Gain Preference"
+		  android:summary="Select the option of the list"
+		  android:key="respWaveGainPref"
+		  android:entries="@array/respWaveGainDisplay"
+		  android:entryValues="@array/respWaveGainReturnValue" />
+     <ListPreference
+		  android:title="Wave Save Window Preference"
+		  android:summary="Select the option of the list"
+		  android:key="waveSaveWindowref"
+		  android:entries="@array/waveSaveWindowDisplay"
+		  android:entryValues="@array/waveSaveWindowReturnValue" />
+    
+</PreferenceScreen>

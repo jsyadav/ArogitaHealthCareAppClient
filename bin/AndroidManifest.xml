@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sampleappclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/arogita_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.arogita.appclient.ReportActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            
+        </activity>
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.arogita.appclient.util.PlotActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.util.ECGChartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.arogita.appclient.SettingsActivity" >
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.EcgWaveActivity"
+            android:label="@string/title_activity_ece_wave" >
+            <intent-filter>
+                <category android:name="ECG_WAVE_MSG" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.util.ListViewSearchActivity"
+            android:label="@string/title_activity_list_view_search" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.PatientSearchActivity"
+            android:label="@string/app_name"> 
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.ReportSearchActivity"
+            android:label="@string/title_activity_report_search" >
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.PatientEditActivity"
+            android:label="@string/title_activity_add_customer" >
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.PatientActivity"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.ReportReviewActivity"
+            android:label="@string/title_activity_report_search" 
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.arogita.appclient.NotesActivity"
+            android:label="@string/title_activity_notes" >
+        </activity>
+    </application>
+
+</manifest>

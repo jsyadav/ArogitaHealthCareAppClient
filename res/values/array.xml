@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tempreatureDisplay">
+        <item>Centigrade</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="tempreatureReturnValue">
+        <item>Centigrade</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="bpPatientModeDisplay">
+        <item>Adult</item>
+        <item>Child</item>
+        <item>Neonate</item>
+    </string-array>
+    <string-array name="bpPatientModeReturnValue">
+        <item>Adult</item>
+        <item>Child</item>
+        <item>Neonate</item>
+    </string-array>
+    
+    <string-array name="ecgFilterModeDisplay">
+        <item>Operation</item>
+        <item>Monitor</item>
+        <item>Diagnose</item>
+    </string-array>
+    <string-array name="ecgFilterModeReturnValue">
+        <item>Operation</item>
+        <item>Monitor</item>
+        <item>Diagnose</item>
+    </string-array>
+    
+    <string-array name="ecgWaveGainDisplay">
+        <item>x.25</item>
+        <item>x.5</item>
+        <item>x1</item>
+        <item>x2</item>
+    </string-array>
+    <string-array name="ecgWaveGainReturnValue">
+        <item>x.25</item>
+        <item>x.5</item>
+        <item>x1</item>
+        <item>x2</item>
+    </string-array>
+    
+    <string-array name="ecgLead3Lead5SwitchDisplay">
+        <item>Lead 3 mode, sampling Lead I</item>
+        <item>Lead 3 mode, sampling Lead II</item>
+        <item>Lead 3 mode, sampling Lead III</item>
+        <item>Lead 5 mode, default on power on</item>
+    </string-array>
+    <string-array name="ecgLead3Lead5SwitchReturnValue">
+        <item>Lead3_I</item>
+        <item>Lead3_II</item>
+        <item>Lead3_III</item>
+        <item>Lead5_V</item>
+    </string-array>
+    <string-array name="respWaveGainDisplay">
+        <item>x.25</item>
+        <item>x.5</item>
+        <item>x1</item>
+        <item>x2</item>
+    </string-array>
+    
+    <string-array name="respWaveGainReturnValue">
+        <item>x.25</item>
+        <item>x.5</item>
+        <item>x1</item>
+        <item>x2</item>
+    </string-array>
+    
+    <string-array name="waveSaveWindowDisplay">
+        <item>15 secs</item>
+        <item>30 secs</item>
+        <item>45 secs</item>
+        <item>60 secs</item>
+    </string-array>
+    
+    <string-array name="waveSaveWindowReturnValue">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    
+</resources>
